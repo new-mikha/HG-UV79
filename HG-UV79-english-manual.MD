@@ -2,11 +2,11 @@
 
 # DISCLAIMER: this write-up can be inaccurate - there could be mistakes in translation or any other factual error. Also, the model you've got might have different software, hardware, or any other charactertics.
 
-### Turning it on and off
+### - Turning it on and off
 
 Use the right knob at the top of the radio.
 
-### How to switch the interface to English
+### - How to switch the interface to English
 
 Menu `18` - to get there, **on the keypad**, find the top-left button (green)
 button, it is the Menu/OK button. Press it once, you'll see the actual menu.
@@ -14,7 +14,7 @@ Scroll to item 18 in the menu, click the same Menu/OK button to select the menu
 item, you'll see language choices. Believe it or not, but `英⽂` is the one for
 English, so select it, then press the same Menu/OK button again. Voila.
 
-### Some specs
+### - Some specs
 
 - Frequencies:
     - RX/TX: 136-174 MHz(FM)
@@ -38,7 +38,7 @@ English, so select it, then press the same Menu/OK button again. Voila.
 - Selection of 1W, 5W or 10W for the output power.
 - Li-Ion 4000 mAh battery, with Type-C charging socket.
 
-### Display elements
+### - Display elements
 
 ![Display](images/display.png)
 
@@ -72,11 +72,11 @@ The modifiable band has this status symbols:
   operating on channels. Notice that even in MR mode the frequency might be
   shown, there a separate setting for that.
 
-### Exterior
+### - Exterior
 
 ![Front](images/radio-front.png) ![Sides and back](images/radio-sides-and-back.png)
 
-### Bandwidth setting
+### - Bandwidth setting
 
 Menu `04 WN` - there is this little setting, the default value for which might
 make things a bit messy for your purposes - the Bandwidth setting, with `NARR`
