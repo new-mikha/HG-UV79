@@ -12,6 +12,30 @@ Scroll to item 18 in the menu, click the same Menu/OK button to select the menu
 item, you'll see language choices. Believe it or not, but `英⽂` is the one for
 English, so select it, then press the same Menu/OK button again. Voila.
 
+### Some specs
+
+- Frequencies:
+    - RX/TX: 136-174 MHz(FM)
+    - RX/TX: 400-520 MHz(FM)
+    - RX: 350-400 MHz (must be FM, but tbh not sure 100%)
+    - RX: 64-108 MHz (FM)
+    - RX: 109-136 MHz (AM)
+
+  As you can see, the AM and FM ranges do not overlap. So you don't select "AM"
+  or "FM" - you rather select a frequency.
+- Dual-band. It can be set to work simultaneously on any two frequencies from
+  the ranges above. Or you can opt-in to use just a single band.
+- Supports 128 channels. Maybe a programming cord might help with entering them,
+  but otherwise you'd need to enter each of the channels you need manually.
+- Built-in Bluetooth, which I successfully connected to a couple of Bluetooth
+  headsets including Sena 10R.
+- External Bluetooth PTT button, might come in the same box with the radio -
+  check with your seller if they would supply one to you before you buy. There
+  was no separate headset in the box.
+- 50 CTCSS/210 DCS
+- Selection of 1W, 5W or 10W for the output power.
+- Li-Ion 4000 mAh battery, with Type-C charging socket.
+
 ### Bandwidth setting
 
 Navigate to Menu `04 WN`. There is this little setting, the default value for
