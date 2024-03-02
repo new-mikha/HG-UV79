@@ -1,12 +1,8 @@
 # How-To's for Lanchonlh HG-UV79 radio
 
-# DISCLAIMER: this write-up can be inaccurate - there could be mistakes in translation or any other factual error. Also, the model you've got might have different software, hardware, or any other charactertics.
+#### DISCLAIMER: this write-up can be inaccurate - there could be translation mistakes or any other errors. Also, the radio model is subject to change, in regard to either software, hardware, or any other charactertics.
 
-### - Turning it on and off
-
-Use the right knob at the top of the radio.
-
-### - How to switch the interface to English
+### - First things first - how to switch the interface to English
 
 Menu `18` - to get there, **on the keypad**, find the top-left button (green)
 button, it is the Menu/OK button. Press it once, you'll see the actual menu.
@@ -25,8 +21,9 @@ English, so select it, then press the same Menu/OK button again. Voila.
 
   As you can see, the AM and FM ranges do not overlap. So you don't select "AM"
   or "FM" - you rather select a frequency.
-- Dual-band. It can be set to work simultaneously on any two frequencies from
-  the ranges above. Or you can opt-in to use just a single band.
+- Dual-band. It can be set to work simultaneously on two frequencies from
+  the ranges above. It seems it needs at least one of the bands to be TX'able.
+  Or you can opt-in to use just a single band.
 - Supports 128 channels. Maybe a programming cord might help with entering them,
   but otherwise you'd need to enter each of the channels you need manually.
 - Built-in Bluetooth, which I successfully connected to a couple of Bluetooth
@@ -68,13 +65,28 @@ The modifiable band has this status symbols:
 - DCS - [DCS](https://en.wikipedia.org/wiki/Squelch#DCS) indicator.
 - W/N - broadband mode, wide and narrow respectively. See
   the `Bandwidth setting` section below for some discussion on it.
-- VFO/MR - VFO is when you enter frequencies directly, MR is when you're
-  operating on channels. Notice that even in MR mode the frequency might be
-  shown, there a separate setting for that.
+- `VFO`/`AM`/`FM` - VFO is the mode when you can enter frequencies directly, as
+  opposed to the channel mode. Although `VFO` is shown for the TX'able
+  frequencies only, while to RX-only frequencies you see either `AM` or `FM` and
+  no channel number in the VFO mode. The channel mode otherwise called "MR" but
+  it's not shown on the display like that.
 
 ### - Exterior
 
 ![Front](images/radio-front.png) ![Sides and back](images/radio-sides-and-back.png)
+
+### - Keys lock/unlock
+
+Press and hold the bottom-right key (with the hash sign), this locks and unlocks
+the keyboard.
+
+There is also a setting that control what exactly is locked. See the
+menu `28 LOCKMODE`, it has the following options:
+
+- `KEY` - just the keypad is locked by the lock key.
+- `KEY+DIAL` - keypad and the dial on top are locked by the lock key.
+- `KEY+DIAL+PTT` - keypad, the dial on top, and all side buttons are locked by
+  the lock key.
 
 ### - Bandwidth setting
 
@@ -88,6 +100,81 @@ By "nearby" I mean something practically close, e.g. if you're on an Aussie CB
 channel, a transmission on the next or prev one might unlock the squelch, and
 you can hear the conversation there - which I found to be a bit crazy. So I'd
 recommend changing it to Narrow (`NARR`).
+
+### - CTCSS (or DCS)
+
+Menu items `13 TX_CTC` and `15 RX_CTC` for CTCSS. Set up both to the same value.
+For DCS, use menus 12 and 14.
+
+### - Setting side buttons up, e.g. for switching modifiable band or for toggling squelch up
+
+Menu items starting from `31 PF1-SHORT` (short press to side button 1) up
+to `36 TOP-LONG` (long press to the top button) are controlling what happens on
+the corresponding actions. Settings might be, for example:
+
+- `SQL_KEY` for the side button 1 - this would toggle the squelch on and off.
+- `KEY_AB` for the side button 2 - this scrolls between bands in the dual bands
+  mode.
+- `LAMP` for the top button to toggle the flashlight on and off.
+- ... or something different in according to your own preferences.
+
+### - Output power
+
+Menu `05 TXP`. Available options are `L` for 1W, `M` for 5W, `H` for 10W.
+
+### - Dual band/single band
+
+Menu `16 TDR`. Here things become a bit tricky - at least in my radio, this
+setting is not translated. So the values are:
+
+- `DAN` - single band.
+- `SHUANG` - dual band.
+
+As it seems, the radio needs at least one of the bands to be TX'able.
+
+### - Scrolling through channel/frequency modes
+
+If you already have some channels, you might be in the channel mode. If so, then
+**long** press of the top-right button on the keypad (the red button) scrolls
+between frequency mode and flavours of the channel mode:
+
+- Frequency mode - if the frequency is TX'able, you'll see the actual
+  frequency +`VFO`
+- Channel mode, just channel number shown in the big font.
+- Channel mode, both frequency and the channel number are shown, the latter in
+  the small font. *This one is easy to confuse with "just frequency" mode*.
+
+### - Frequency step
+
+Menu `O3 STEP`. In the Frequency mode (see the section above), you can enter the
+frequency on the keypad, or scroll to the next one by either pressing up/down
+buttons, or turning the dial on top. With such scrolling, the `03 STEP` menu is
+important. It becomes quite imoprtant when saving multiple channels (see below),
+if your channels are spread evenly.
+
+### - Saving channels
+
+IMPORTANT - a channel keeps not just the frequency, but a lot of other things:
+
+- Narrow/wide setting (see above)
+- CTCSS/DCS setting (see above)
+- Output power
+- Stuff related to e.g. frequency differences etc.
+
+So if you forgot about it, then you might end up with one channel having Narrow
+bancwidth, while other suddenly becomes Wide and you start hearing chatters
+from the other channels. Keeping that in mind, set up all those things first
+before you start saving the channels.
+
+First, make sure you're in the frequency mode - "just frequency" mode, see the
+**"Scrolling through channel/frequency modes"** section above. Then do this:
+
+1. Enter all the details - is it narrow/wide bandwidth, output power, etc.
+2. Set the frequency, either by number on the keypad, or by scrolling to the
+   next one by using either up/down buttons, or the dial on top (see the "
+   Frequency step" section above)
+3. Go to the `37 MEM-CH` menu item, select the channel, press OK.
+4. Repeat for all channels that you need. This might take time!
 
 ## To be continued...
 
