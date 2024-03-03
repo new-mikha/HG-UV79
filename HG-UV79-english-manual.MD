@@ -28,7 +28,7 @@ English, so select it, then press the same Menu/OK button again. Voila.
   but otherwise you'd need to enter each of the channels you need manually.
 - Built-in Bluetooth, which I successfully connected to a couple of Bluetooth
   headsets including Sena 10R.
-- Wireless PTT button, might come in the same box with the radio -
+- Remote PTT button, might come in the same box with the radio -
   check with your seller if they would supply one to you before you buy. There
   was no separate headset in the box.
 - 50 CTCSS/210 DCS
@@ -39,11 +39,12 @@ English, so select it, then press the same Menu/OK button again. Voila.
 
 ![Display](images/display.png)
 
-- "o" symbol - shows up when the wireless PTT is connected.
-- Bluetooth symbol - red when the Bluetooth is not connected, black when it is
-  connected
-- VOX - Voice control function
-- S - battery save mode. There is not much info in the original manual about it
+- `o` symbol - shows up when the remote PTT is connected.
+- `ᛒ` symbol, Bluetooth - red when the Bluetooth is not connected, black when it
+  is connected
+- `VOX` - Voice control function
+- `S` - battery save mode. There is not much info in the original manual about
+  it
   apart from how to turn it on or off. It's different from the output power
   level.
 - Key symbol - keyboard lock indicator.
@@ -169,12 +170,76 @@ before you start saving the channels.
 First, make sure you're in the frequency mode - "just frequency" mode, see the
 **"Scrolling through channel/frequency modes"** section above. Then do this:
 
-1. Enter all the details - is it narrow/wide bandwidth, output power, etc.
-2. Set the frequency, either by number on the keypad, or by scrolling to the
-   next one by using either up/down buttons, or the dial on top (see the "
-   Frequency step" section above)
-3. Go to the `37 MEM-CH` menu item, select the channel, press OK.
-4. Repeat for all channels that you need. This might take time!
+- Enter all the details - is it narrow/wide bandwidth, output power, etc.
+- Set the frequency, either by number on the keypad, or by scrolling to the
+  next one by using either up/down buttons, or the dial on top (see the
+  "Frequency step" section above)
+- Go to the `37 MEM-CH` menu item, select the channel, press OK.
+- Repeat for all channels that you need. This might take time!
+
+### - Turning the Bluetooth on and off
+
+Normally it's on, but if you don't see the Bluetooth symbol (ᛒ) on the display
+either blinking or solid, go to the menu `47 Bluetooth_SET`, then to
+the `1. BT Switch` sub-menu, make it `ON` there - and check that the (ᛒ) is now
+showing up on the display.
+
+After you turn it on, it probably will be red and blinking - that's ok so far,
+just means no Bluetooth headset is connected yet.
+
+### - Remote PTT buttons
+
+Here is how the supplied remote PTT looks like:
+
+![PTT](images/ptt-button.png)
+
+### - Pairing of the supplied remote PTT
+
+The procedure below is for the supplied remote PTT button, shown on the picture
+above.
+
+- Make sure the Bluetooth connectivity is on in general, you might refer to the
+  [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
+  section
+  above to make it ON.
+- Now for the remote, if not yet, switch the remote off, and check that it's
+- really off - press the PTT button on it - the indicator should NOT light up.
+- Go to the menu `47 Bluetooth_SET`, then to the `2. Ring pairing` sub-menu,
+  make it `ON` - see the `Pairing...` message.
+- Now do this with the remote - follow these steps carefully:
+    - With the remote initially off (see above), press and hold the remote's PTT
+      button.
+    - Then press its Power button quickly - until you see the red light on the
+      remote, then release the Power button, **but keep holding the PTT
+      button**.
+    - You must see the red indicator on the remote blinking quickly for a
+      while - and then it should go off after a few seconds, while the main unit
+      saying `Success`. **IMPORTANT: you won't see the red light on the remote
+      actually blinking until you release its Power button. But you need to
+      release it, while holding the remote's PTT. Just steady red light is not
+      enough.**
+
+If you did everything correctly, then voila - you'll see the (`o`) symbol on the
+main unit display, and now pressing PTT on the remote makes the radio
+transmitting (make sure you're on RX'able frequency!). It works even with the
+full keypad lock, when the main unit's PTT is blocked - but the remote one
+still works.
+
+### - Remote headset pairing
+
+This is more generic procedure than the one for the remote PTT described above,
+but hopefully easier too. Refer to the headset manual for the details on how to
+start pairing
+on its side. For the radio unit the procedure is just this:
+
+- Make sure the Bluetooth connectivity is on in general, you might refer to the
+  [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
+  section above to make it ON.
+- Go to the menu `47 Bluetooth_SET`, then to the `5. BT pairing` sub-menu,
+  make it `ON` - see the `Pairing...` message.
+- ... do whatever your headset requires for pairing. Just a tip - say, Sena 10R
+  headset should follow the procedure for pairing with a ***phone*** when
+  pairing to this radio.
 
 ## To be continued...
 
