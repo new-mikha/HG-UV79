@@ -2,11 +2,18 @@
 
 Manual for the Lanchonlh HG-UV79 radio.
 
-#### DISCLAIMER: this write-up can be inaccurate - there could be translation mistakes or any other errors. Also, the radio model is subject to change, in regard to either software, hardware, or any other charactertics.
+## Pre-face
 
-View the scan of the original manual in the `original-manual-scan` directory.
+**DISCLAIMER: This write-up can be inaccurate - there could be translation
+mistakes or any
+other errors. Also, the radio model is subject to change, in regard to either
+software, hardware, or any other charactertics.**
 
-## Please note that it's not a direct translation - it's more like *How-To*'s for English-speaking users.
+**Please note that it's not a direct translation - it's more like
+*How-To*'s for English-speaking users.** View the scan of the original manual in
+the `original-manual-scan` directory.
+
+## How-to's, specs, pics
 
 ### - First things first - how to switch the interface to English
 
@@ -247,7 +254,11 @@ on its side. For the radio unit the procedure is just this:
   headset should follow the procedure for pairing with a ***phone*** when
   pairing to this radio.
 
-## To be continued...
+## The rest of the menu items
+
+TODO
+
+## To be continued . . .
 
 If you're stuck, see the original scanned manual in
 the [main srepo](https://github.com/new-mikha/HG-UV79/blob/1f96ab0eec85dc48a5e18d666499689ae0f4e9de/original-manual-scan/LANCHONLH%20HG-UV79%20-%20manual%20-%20OCR%20by%20Adobe.pdf).
