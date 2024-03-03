@@ -1,6 +1,6 @@
 # Lanchonlh HG-UV79
 
-Manual for the Lanchonlh HG-UV79 radio.
+<img align="right" style="float: right;" src="images/radio.png">
 
 ## Pre-face
 
@@ -9,11 +9,11 @@ mistakes or any
 other errors. Also, the radio model is subject to change, in regard to either
 software, hardware, or any other charactertics.**
 
-**Please note that it's not a direct translation - it's more like
-*How-To*'s for English-speaking users.** View the scan of the original manual in
-the `original-manual-scan` directory.
+**Please note also that it's not a direct translation - it's more like
+*How-To*'s for English-speaking users.** You can view the scan of the original
+manual in the `original-manual-scan` directory.
 
-## How-to's, specs, pics
+## How-To's, specs, pics
 
 ### - First things first - how to switch the interface to English
 
@@ -144,7 +144,7 @@ setting is not translated. So the values are:
 - `DAN` - single band.
 - `SHUANG` - dual band.
 
-As it seems, the radio needs at least one of the bands to be TX'able.
+Also, as it seems, the radio needs at least one of the bands to be TX'able.
 
 ### - Scrolling through channel/frequency modes
 
@@ -215,8 +215,8 @@ above.
   [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
   section
   above to make it ON.
-- Now for the remote, if not yet, switch the remote off, and check that it's
-- really off - press the PTT button on it - the indicator should NOT light up.
+- Now for the remote, switch the remote off if it's not yet. Check it then -
+  press the remote PTT button, its indicator should NOT light up.
 - Go to the menu `47 Bluetooth_SET`, then to the `2. Ring pairing` sub-menu,
   make it `ON` - see the `Pairing...` message.
 - Now do this with the remote - follow these steps carefully:
@@ -227,23 +227,19 @@ above.
       button**.
     - You must see the red indicator on the remote blinking quickly for a
       while - and then it should go off after a few seconds, while the main unit
-      saying `Success`. **IMPORTANT: you won't see the red light on the remote
-      actually blinking until you release its Power button. But you need to
-      release it, while holding the remote's PTT. Just steady red light is not
-      enough.**
+      saying `Success`. You can release the PTT button now.
 
 If you did everything correctly, then voila - you'll see the (`o`) symbol on the
 main unit display, and now pressing PTT on the remote makes the radio
-transmitting (make sure you're on RX'able frequency!). It works even with the
-full keypad lock, when the main unit's PTT is blocked - but the remote one
+transmitting (make sure you're on TX'able frequency!). It works even with the
+full keypad lock, when the main unit's PTT is blocked - but the remote PTT
 still works.
 
 ### - Remote headset pairing
 
 This is more generic procedure than the one for the remote PTT described above,
 but hopefully easier too. Refer to the headset manual for the details on how to
-start pairing
-on its side. For the radio unit the procedure is just this:
+start pairing on its side. For the radio unit the procedure is just this:
 
 - Make sure the Bluetooth connectivity is on in general, you might refer to the
   [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
