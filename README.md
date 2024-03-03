@@ -250,6 +250,27 @@ start pairing on its side. For the radio unit the procedure is just this:
   headset should follow the procedure for pairing with a ***phone*** when
   pairing to this radio.
 
+### - Bluetooth speaker volume
+
+A couple of findings:
+
+- The Bluetooth headset speaker volume is NOT controlled by the main unit's
+  Power/Volume knob, at least with the headsets I tested. You can change the
+  volume by the headset control though, which might be ok.
+- There is a menu: `47 Bluetooth_SET`/`3.BT_VOL`, with options from 1 to 16. It
+  slightly changes the volume in the Bluetooth headset speaker. So if you find
+  that your one is too quiet, you can try change it to 16 there and then play
+  with your actual Bluetooth headset volume controls.
+
+### - Bluetooth microphone volume
+
+You can find out that you're too quiet for your buddies who're listening what
+you're talking over the Bluetooth headset microphone using this radio. There is
+a setting that looks like it should change the Bluetooth microphone
+gain: `47 Bluetooth_SET`/`3.BT_MIC`. Unfortunately, in my tests I found that
+this setting effectively changes nothing. No matter what value I set, the was no
+noticeable change in the microphone level.
+
 ## The rest of the menu items
 
 TODO
