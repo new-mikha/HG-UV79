@@ -2,50 +2,49 @@
 
 <img align="right" style="float: right;" src="images/radio.png">
 
-## Pre-face
+## Preface
 
-**DISCLAIMER: This write-up can be inaccurate - there could be translation
-mistakes or any
-other errors. Also, the radio model is subject to change, in regard to either
-software, hardware, or any other charactertics.**
+**DISCLAIMER: This write-up may contain inaccuracies, including translation
+mistakes or other errors. Additionally, the radio model is subject to change,
+including potential updates to software, hardware, or other characteristics.**
 
-**Please note also that it's not a direct translation - it's more like
-*How-To*'s for English-speaking users.** You can view the scan of the original
+**Please note that this document is not a direct translation but rather serves
+as a guide for English-speaking users.** You can find the scanned original
 manual in the `original-manual-scan` directory.
 
-## How-To's, specs, pics
+## How-To's, Specs, Pics
 
-### - First things first - how to switch the interface to English
+### - First things first: how to switch the interface to English
 
-Menu `18` - to get there, **on the keypad**, find the top-left button (green)
-button, it is the Menu/OK button. Press it once, you'll see the actual menu.
-Scroll to item 18 in the menu, click the same Menu/OK button to select the menu
-item, you'll see language choices. Believe it or not, but `英⽂` is the one for
-English, so select it, then press the same Menu/OK button again. Voila.
+Menu `18` - to get there, press the Menu/OK button located at the top-left of
+the keypad. Scroll to item 18 in the menu using the Menu/OK button. Select the
+menu item by clicking the Menu/OK button again. Believe it or not, but `英⽂` is
+the choice for English, so select it there. Press the Menu/OK button again to
+confirm your selection. Voila!
 
 ### - Some specs
 
 - Frequencies:
-    - RX/TX: 136-174 MHz(FM)
-    - RX/TX: 400-520 MHz(FM)
+    - RX/TX: 136-174 MHz (FM)
+    - RX/TX: 400-520 MHz (FM)
     - RX: 350-400 MHz (must be FM, but tbh not sure 100%)
     - RX: 64-108 MHz (FM)
     - RX: 109-136 MHz (AM)
 
   As you can see, the AM and FM ranges do not overlap. So you don't select "AM"
   or "FM" - you rather select a frequency.
-- Dual-band. It can be set to work simultaneously on two frequencies from
-  the ranges above. It seems it needs at least one of the bands to be TX'able.
-  Or you can opt-in to use just a single band.
+- Dual-band. It can be set to work simultaneously on two frequencies from the
+  ranges above. It seems it needs at least one of the bands to be TX'able. Or
+  you can opt-in to use just a single band.
 - Supports 128 channels. Maybe a programming cord might help with entering them,
   but otherwise you'd need to enter each of the channels you need manually.
 - Built-in Bluetooth, which I successfully connected to a couple of Bluetooth
   headsets including Sena 10R.
-- Remote PTT button, might come in the same box with the radio -
-  check with your seller if they would supply one to you before you buy. There
-  was no separate headset in the box.
+- Remote PTT button, might come in the same box with the radio - check with your
+  seller if they would supply one to you before you buy. There was no separate
+  headset in my box.
 - 50 CTCSS/210 DCS
-- Selection of 1W, 5W or 10W for the output power.
+- Selection of 1W, 5W, or 10W for the output power.
 - Li-Ion 4000 mAh battery, with Type-C charging socket.
 
 ### - Display elements
@@ -54,8 +53,8 @@ English, so select it, then press the same Menu/OK button again. Voila.
 
 - `o` symbol - shows up when the remote PTT is connected.
 - `ᛒ` symbol, Bluetooth - red when the Bluetooth is not connected, black when it
-  is connected
-- `VOX` - Voice control function
+  is connected.
+- `VOX` - Voice control function.
 - `S` - battery save mode. There is not much info in the original manual about
   it apart from how to turn it on or off. It's different from the output power
   level.
@@ -68,12 +67,12 @@ is the one for which you enter the frequency/channel, output power, etc. You can
 set up how to switch between the modifiable bands, normally it should be one of
 the side buttons.
 
-The modifiable band has this status symbols:
+The modifiable band has these status symbols:
 
-- `R` - scramble indicator (not sure what's that)
+- `R` - scramble indicator (not sure what that is).
 - `H`, `M`, `L` - high, medium, low output power levels.
 - `+` or `-` signs - when positive or negative frequency differences are on (not
-  sure what's that)
+  sure what that is).
 - `CTC` - [CTCCS](https://www.google.com/search?q=CTCSS) indicator.
 - `DCS` - [DCS](https://en.wikipedia.org/wiki/Squelch#DCS) indicator.
 - `W`/`N` - broadband mode, wide and narrow respectively. See
@@ -81,26 +80,26 @@ The modifiable band has this status symbols:
   discussion on it.
 - `VFO`/`AM`/`FM` - VFO is the mode when you can enter frequencies directly, as
   opposed to the channel mode. Although `VFO` is shown for the TX'able
-  frequencies only, while to RX-only frequencies you see either `AM` or `FM` and
-  no channel number in the VFO mode. The channel mode otherwise called "MR" but
-  it's not shown on the display like that.
+  frequencies only, while for RX-only frequencies you see either `AM` or `FM`
+  and no channel number in the VFO mode. The channel mode otherwise called "MR"
+  but it's not shown on the display like that.
 
 ### - Exterior
 
 ![Front](images/radio-front.png) ![Sides and back](images/radio-sides-and-back.png)
 
-### - Keys lock/unlock
+### - Keypad lock/unlock
 
-Press and hold the bottom-right key (with the hash sign), this locks and unlocks
+Press and hold the bottom-right key (with the hash sign); this locks and unlocks
 the keyboard.
 
-There is also a setting that control what exactly is locked. See the
-menu `28 LOCKMODE`, it has the following options:
+There is also a setting that controls what exactly is locked. See the
+menu `28 LOCKMODE`; it has the following options:
 
-- `KEY` - just the keypad is locked by the lock key.
-- `KEY+DIAL` - keypad and the dial on top are locked by the lock key.
-- `KEY+DIAL+PTT` - keypad, the dial on top, and all side buttons are locked by
-  the lock key.
+- `KEY` - only the keypad is locked by the lock key.
+- `KEY+DIAL` - the keypad and the dial on top are locked by the lock key.
+- `KEY+DIAL+PTT` - the keypad, the dial on top, and all side buttons are locked
+  by the lock key.
 
 ### - Bandwidth setting
 
@@ -110,10 +109,10 @@ and `WIDE` (the default) options. I found that if it is set to `WIDE`, it's
 actually wide, and the handset can unlock the squelch when some nearby frequency
 is used.
 
-By "nearby" I mean something practically close, e.g. if you're on an Aussie CB
-channel, a transmission on the next or prev one might unlock the squelch, and
-you can hear the conversation there - which I found to be a bit crazy. So I'd
-recommend changing it to Narrow (`NARR`).
+By "nearby", I mean something practically close, e.g., if you're on an Aussie CB
+channel, a transmission on the next or previous one might unlock the squelch,
+and you can hear the conversation there - which I found to be a bit crazy. So
+I'd recommend changing it to Narrow (`NARR`).
 
 ### - CTCSS (or DCS)
 
@@ -122,17 +121,16 @@ For DCS, use menus 12 and 14.
 
 ### - Customising the side buttons
 
-The side buttons functions can be changes, e.g. to switching modifiable band or
-for toggling the squelch.
+The side buttons' functions can be customised, e.g. to switch modifiable bands
+or for toggling the squelch.
 
 Menu items starting from `31 PF1-SHORT` (short press to side button 1) up
-to `36 TOP-LONG` (long press to the top button) are controlling what happens on
-the corresponding actions. The available options there are, among others:
+to `36 TOP-LONG` (long press to the top button) control what happens on the
+corresponding actions. The available options there are, among others:
 
 - `SQL_KEY` - this would toggle the squelch on and off.
-- `KEY_AB` - this scrolls between bands in the dual bands
-  mode.
-- `LAMP` for the top button to toggle the flashlight on and off.
+- `KEY_AB` - this scrolls between bands in the dual-band mode.
+- `LAMP` for the top button to toggle the torch on and off.
 
 ### - Output power
 
@@ -146,27 +144,27 @@ setting is not translated. So the values are:
 - `DAN` - single band.
 - `SHUANG` - dual band.
 
-Also, as it seems, the radio needs at least one of the bands to be TX'able.
+Also, it seems that the radio needs at least one of the bands to be TX'able.
 
 ### - Scrolling through channel/frequency modes
 
 If you already have some channels, you might be in the channel mode. If so, then
-**long** press of the top-right button on the keypad (the red button) scrolls
+a **long** press of the top-right button on the keypad (the red button) scrolls
 between frequency mode and flavours of the channel mode:
 
 - Frequency mode - if the frequency is TX'able, you'll see the actual
-  frequency +`VFO`
-- Channel mode, just channel number shown in the big font.
+  frequency + `VFO`.
+- Channel mode, just the channel number shown in the big font.
 - Channel mode, both frequency and the channel number are shown, the latter in
   the small font. *This one is easy to confuse with "just frequency" mode*.
 
 ### - Frequency step
 
 Menu `O3 STEP`. In the Frequency mode (see the section above), you can enter the
-frequency on the keypad, or scroll to the next one by either pressing up/down
-buttons, or turning the dial on top. With such scrolling, the `03 STEP` menu is
-important. It becomes quite imoprtant when saving multiple channels (see below),
-if your channels are spread evenly.
+frequency on the keypad, or scroll to the next one by either pressing the
+up/down buttons, or turning the dial on top. With such scrolling, the `03 STEP`
+menu is important. It becomes quite important when saving multiple channels (see
+below), if your channels are spread evenly.
 
 ### - Saving channels
 
@@ -178,7 +176,7 @@ IMPORTANT - a channel keeps not just the frequency, but a lot of other things:
 - Stuff related to e.g. frequency differences etc.
 
 So if you forgot about it, then you might end up with one channel having Narrow
-bancwidth, while other suddenly becomes Wide and you start hearing chatters
+bandwidth, while the other suddenly becomes Wide and you start hearing chatters
 from the other channels. Keeping that in mind, set up all those things first
 before you start saving the channels.
 
@@ -186,9 +184,9 @@ First, make sure you're in the frequency mode - "just frequency" mode, see the
 **"Scrolling through channel/frequency modes"** section above. Then do this:
 
 - Enter all the details - is it narrow/wide bandwidth, output power, etc.
-- Set the frequency, either by number on the keypad, or by scrolling to the
-  next one by using either up/down buttons, or the dial on top (see the
-  "Frequency step" section above)
+- Set the frequency, either by number on the keypad, or by scrolling to the next
+  one by using either up/down buttons, or the dial on top (see the "Frequency
+  step" section above).
 - Go to the `37 MEM-CH` menu item, select the channel, press OK.
 - Repeat for all channels that you need. This might take time!
 
@@ -210,59 +208,59 @@ Here is how the supplied remote PTT looks like:
 
 ### - Pairing of the supplied remote PTT
 
-The procedure below is for the supplied remote PTT button, shown on the picture
+The procedure below is for the supplied remote PTT button, shown in the picture
 above.
 
-- Make sure the Bluetooth connectivity is on in general, you might refer to the
-  [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
-  section
-  above to make it ON.
-- Now for the remote, switch the remote off if it's not yet. Check it then -
-  press the remote PTT button, its indicator should NOT light up.
-- Go to the menu `47 Bluetooth_SET`, then to the `2. Ring pairing` sub-menu,
-  make it `ON` - see the `Pairing...` message.
-- Now do this with the remote - follow these steps carefully:
-    - With the remote initially off (see above), press and hold the remote's PTT
-      button.
-    - Then press its Power button quickly - until you see the red light on the
-      remote, then release the Power button, **but keep holding the PTT
-      button**.
-    - You must see the red indicator on the remote blinking quickly for a
-      while - and then it should go off after a few seconds, while the main unit
-      saying `Success`. You can release the PTT button now.
+- Ensure that Bluetooth connectivity is enabled. Refer to
+  the [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
+  section above to enable it.
+- If the remote is not already switched off, turn it off. Verify by pressing the
+  remote PTT button; its indicator should NOT light up.
+- Navigate to menu `47 Bluetooth_SET`, then to the `2. Ring pairing` sub-menu,
+  and set it to `ON`. Wait for the `Pairing...` message to appear.
+- Perform the following steps carefully with the remote:
+    - With the remote initially off (as confirmed above), press and hold the
+      remote's PTT button.
+    - While holding the PTT button, quickly press the Power button until the red
+      light on the remote illuminates. Release the Power button, **but continue
+      holding the PTT button**.
+    - The red indicator on the remote should blink rapidly for a few seconds
+      before turning off. Simultaneously, the main unit should
+      display `Success`. You can now release the PTT button.
 
-If you did everything correctly, then voila - you'll see the (`o`) symbol on the
-main unit display, and now pressing PTT on the remote makes the radio
-transmitting (make sure you're on TX'able frequency!). It works even with the
-full keypad lock, when the main unit's PTT is blocked - but the remote PTT
-still works.
+If executed correctly, you'll notice the (`o`) symbol on the main unit display.
+Pressing the PTT on the remote will trigger transmission from the radio (ensure
+you're on a TX'able frequency!). Notably, this function remains operational even
+when the main unit's PTT is locked.
 
 ### - Remote headset pairing
 
-This is more generic procedure than the one for the remote PTT described above,
-but hopefully easier too. Refer to the headset manual for the details on how to
-start pairing on its side. For the radio unit the procedure is just this:
+This procedure is a more generic approach than the one for the remote PTT
+described above, but it is hopefully easier to follow. Please refer to the
+headset manual for detailed instructions on how to initiate pairing on its side.
+For the radio unit, the procedure is as follows:
 
-- Make sure the Bluetooth connectivity is on in general, you might refer to the
-  [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
-  section above to make it ON.
-- Go to the menu `47 Bluetooth_SET`, then to the `5. BT pairing` sub-menu,
-  make it `ON` - see the `Pairing...` message.
-- ... do whatever your headset requires for pairing. Just a tip - say, Sena 10R
-  headset should follow the procedure for pairing with a ***phone*** when
-  pairing to this radio.
+- Ensure that Bluetooth connectivity is enabled. Refer to
+  the [Turning the Bluetooth on and off](#--turning-the-bluetooth-on-and-off)
+  section above to enable it.
+- Navigate to menu `47 Bluetooth_SET`, then to the `5. BT pairing` sub-menu, and
+  set it to `ON`. Wait for the `Pairing...` message to appear.
+- Follow the pairing procedure outlined in your headset manual. As a tip, for
+  headsets like the Sena 10R, you should follow the pairing procedure designed
+  for pairing with a ***phone*** when connecting to this radio.
 
 ### - Bluetooth speaker volume
 
-A couple of findings:
+Here are a couple of important points regarding the Bluetooth speaker volume:
 
-- The Bluetooth headset speaker volume is NOT controlled by the main unit's
-  Power/Volume knob, at least with the headsets I tested. You can change the
-  volume by the headset control though, which might be ok.
-- There is a menu: `47 Bluetooth_SET`/`3.BT_VOL`, with options from 1 to 16. It
-  slightly changes the volume in the Bluetooth headset speaker. So if you find
-  that your one is too quiet, you can try change it to 16 there and then play
-  with your actual Bluetooth headset volume controls.
+- The volume of the Bluetooth headset speaker is NOT controlled by the main
+  unit's Power/Volume knob, at least based on the headsets I tested. However,
+  you can adjust the volume using the controls on the headset itself.
+- There is a menu option available at `47 Bluetooth_SET`/`3.BT_VOL`, which
+  offers volume adjustments ranging from 1 to 16. This setting slightly alters
+  the volume of the Bluetooth headset speaker. If you find that the volume is
+  too low, you can try increasing it to 16 and then adjust further using the
+  controls on your Bluetooth headset.
 
 ### - Bluetooth microphone volume
 
@@ -270,8 +268,8 @@ You can find out that you're too quiet for your buddies who're listening what
 you're talking over the Bluetooth headset microphone using this radio. There is
 a setting that looks like it should change the Bluetooth microphone
 gain: `47 Bluetooth_SET`/`3.BT_MIC`. Unfortunately, in my tests I found that
-this setting effectively changes nothing. No matter what value I set, the was no
-noticeable change in the microphone level.
+this setting effectively changes nothing. No matter what value I set, there was
+no noticeable change in the microphone level.
 
 ## All menu items
 
@@ -337,7 +335,7 @@ Default value: 00.00000 MHz
 ```
 
 - `18 LANGUAGE` - Display
-  language, [covered above!](#--first-things-first---how-to-switch-the-interface-to-english).
+  language, [covered above!](#--first-things-first-how-to-switch-the-interface-to-english).
 - `19 VOICE` - turn on and off the voice repeating for the selected menu.
 - `20 BEEP` - keypad beep on/off.
 - `21 DIS-MODE` - normal or inverted colors of the display.
@@ -373,7 +371,8 @@ CO: Carrier method scanning
 SE: Search mode scan
 ```
 
-- `28 LOCKMODE` - What keys can be locked, [covered above](#--keys-lockunlock).
+- `28 LOCKMODE` - What keys can be
+  locked, [covered above](#--keypad-lockunlock).
 - `29 AUTOLOCK` - Timeout for the auto-lock of the keypad.
 - `30 TONE` - never used it, so here's what the Google Translate says:
 
