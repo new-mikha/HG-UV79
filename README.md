@@ -267,7 +267,7 @@ Here are a couple of important points regarding the Bluetooth speaker volume:
 You can find out if you're too quiet for your buddies who are listening to what
 you're saying over the Bluetooth headset microphone using this radio. There is a
 setting that could help boost the Bluetooth microphone
-gain: `47 Bluetooth_SET`/`3.BT_MIC`. It seems, however, that whether it really
+gain: `47 Bluetooth_SET`/`4.BT_MIC`. It seems, however, that whether it really
 works or not depends on the headset. With my Sena 10R, in my tests, I found that
 this setting effectively changes nothing. However, for
 example, [with the Sena SF2, it seems to be working](https://github.com/new-mikha/HG-UV79/issues/1).
@@ -423,16 +423,13 @@ Function description: The relay acknowledgment tone refers to the relay transfer
 - `46 VERSION` - software version.
 - `47 Bluetooth` - has a number of sub-menus, covered in a number of sections
   above, [starting from here](#--turning-the-bluetooth-on-and-off)
-- `48 Bluetooth_SET` - has a number of sub-menus, covered in a number of
-  sections
-  above, [starting from here](#--turning-the-bluetooth-on-and-off)
 - `48 RESET` - Reset!
 
 ## A bit more on the original manual
 
 If something you're interested in is not covered well here, you might try to
 check the original scanned manual in
-the [main srepo](https://github.com/new-mikha/HG-UV79/blob/1f96ab0eec85dc48a5e18d666499689ae0f4e9de/original-manual-scan/LANCHONLH%20HG-UV79%20-%20manual%20-%20OCR%20by%20Adobe.pdf).
+the [main repo](https://github.com/new-mikha/HG-UV79/blob/1f96ab0eec85dc48a5e18d666499689ae0f4e9de/original-manual-scan/LANCHONLH%20HG-UV79%20-%20manual%20-%20OCR%20by%20Adobe.pdf).
 That manual is in Chinese, but it's text-recognized - **YOU'D NEED TO
 DOWNLOAD THE FILE FOR THAT. BECAUSE AS OF NOW, THE TEXT COPY-PASTE FOR THIS PDF
 DOES NOT WORK ON GITHUB, YOU NEED TO OPEN IT IN A PROPER ACROBAT READER**. So
