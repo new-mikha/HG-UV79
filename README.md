@@ -264,12 +264,13 @@ Here are a couple of important points regarding the Bluetooth speaker volume:
 
 ### - Bluetooth microphone volume
 
-You can find out that you're too quiet for your buddies who're listening what
-you're talking over the Bluetooth headset microphone using this radio. There is
-a setting that looks like it should change the Bluetooth microphone
-gain: `47 Bluetooth_SET`/`3.BT_MIC`. Unfortunately, in my tests I found that
-this setting effectively changes nothing. No matter what value I set, there was
-no noticeable change in the microphone level.
+You can find out if you're too quiet for your buddies who are listening to what
+you're saying over the Bluetooth headset microphone using this radio. There is a
+setting that could help boost the Bluetooth microphone
+gain: `47 Bluetooth_SET`/`3.BT_MIC`. It seems, however, that whether it really
+works or not depends on the headset. With my Sena 10R, in my tests, I found that
+this setting effectively changes nothing. However, for
+example, [with the Sena SF2, it seems to be working](https://github.com/new-mikha/HG-UV79/issues/1).
 
 ## All menu items
 
